@@ -15,7 +15,7 @@ const TodoList = ({ data: { loading, error, allTasks } }) => (
 
 const query = gql`
 {
-  allTasks(orderBy: date_ASC) {
+  allToDos(orderBy: date_ASC) {
     id
     title
     date
